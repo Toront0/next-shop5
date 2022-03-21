@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+ padding: 4rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  color: rgb(39, 23, 23);
+  font-family: 'Poppins', sans-se
+}
+
+.primary {
+ background-color: #000;
+ border-radius: 6px;
+  font-size: 1.3rem;
+  padding: .5rem 1.2rem;
+ color: #fff;
+  cursor: pointer;
+ transition: .3s ease;
+ margin-right: 1rem;
+  border: 1px solid transparent;
+}
+
+.primary:hover {
+ background-color: #313131;
+}
+
+.secondary {
+ background-color: rgb(226, 226, 226);
+   cursor: pointer;
+ transition: .3s ease;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  padding: .5rem 1.2rem;
+   border: 1px solid transparent;
+}
+
+.secondary:hover {
+ background-color: rgb(209, 208, 208);
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

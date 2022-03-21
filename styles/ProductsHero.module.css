@@ -1,0 +1,50 @@
+.section {
+ padding: 0 0 4rem;
+}
+
+
+
+.wrapper {
+ width: 100%;
+ background-color: #000;
+ height: 250px;
+ position: relative;
+}
+
+.wrapper img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+
+ opacity: .2;
+}
+
+.content {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 50;
+ color: #fff;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+}
+
+.content h2 {
+ color: #fff;
+}
+
+.content p {
+ font-size: 1.2rem;
+ letter-spacing: 0.02em;
+  color: #627777;
+  text-transform: uppercase;
+}
+
+ /* background-image: url(https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+ background-position: top;
+ background-size: cover;
+ background-repeat: no-repeat; */

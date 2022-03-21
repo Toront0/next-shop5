@@ -1,0 +1,23 @@
+.carousel {
+ overflow: hidden;
+ cursor: grab;
+}
+
+.inner-carousel {
+ display: flex;
+}
+
+.slide {
+ height: 40rem;
+ min-width: 30rem;
+ padding: 2rem;
+}
+
+.img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 2rem;
+ pointer-events: none;
+}
+
